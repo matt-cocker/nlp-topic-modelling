@@ -21,6 +21,16 @@ PureGym aims to provide a low-cost, inclusive fitness experience at scale. Under
 
 ---
 
+## Notebooks
+
+- [`topic_modelling_bertopic.ipynb`](./topic_modelling_bertopic.ipynb)  
+  Main workflow using BERTopic, Hugging Face emotion analysis, and LLM summarisation.
+
+- [`topic_modelling_lda_gensim.ipynb`](./topic_modelling_lda_gensim.ipynb)  
+  Early-stage experimentation with traditional LDA via Gensim.  
+
+---
+
 ## Methods & Tools
 
 - **Topic Modelling**: BERTopic and LDA (Gensim)
@@ -74,9 +84,10 @@ This approach enables fitness brands like PureGym to:
 
 puregym-nlp-topic-modelling/
 │
-├── README.md                  # Project overview 
-├── notebook.ipynb             # Main Jupyter Notebook
-├── requirements.txt           # Libraries used
+├── README.md                            # Project overview 
+├── topic_modelling_bertopic.ipynb       # Main Jupyter notebook with main workflow + final outputs
+├── topic_modelling_lda_gensim.ipynb     # Alternate method for comparison
+├── requirements.txt                     # Libraries used
 └── .gitignore                 
 
 ---
