@@ -3,6 +3,10 @@ numpy
 matplotlib
 scikit-learn
 nltk
+spacy
+gensim
+pyLDAvis
 bertopic
 transformers
 torch
+umap-learn
