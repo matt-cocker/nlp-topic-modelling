@@ -31,6 +31,19 @@ PureGym aims to provide a low-cost, inclusive fitness experience at scale. Under
 
 ---
 
+## Context: Why Use LDA with Gensim?
+
+Latent Dirichlet Allocation (LDA) is a well-established topic modelling method and was included here as part of the original academic brief. In this project, I tested LDA (using Gensim) early in the process as a baseline for comparison. However, due to:
+- Lower topic coherence
+- More limited visualisation capabilities
+- Practical issues running Gensim consistently in Colab environments
+
+I chose to use **BERTopic**, which provided more meaningful outputs and better suited the business context of this analysis.
+
+This notebook is included to demonstrate comparative exploration but is not used in the final insight generation.
+
+---
+
 ## Key Results
 
 - Extracted 10+ interpretable topics from thousands of reviews — including app complaints, cleanliness, staff behaviour, contract terms, and facility quality
