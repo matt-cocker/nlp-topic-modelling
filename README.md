@@ -31,6 +31,14 @@ PureGym aims to provide a low-cost, inclusive fitness experience at scale. Under
 
 ---
 
+## Data Loading Note
+
+To avoid code duplication across notebooks, core data cleaning and EDA were completed in the BERTopic notebook. The processed review data is loaded into the Gensim LDA notebook using `.pkl` files saved from that initial step.
+
+This is due to constraints with Gensim compatibility.
+
+---
+
 ## Methods & Tools
 
 - **Topic Modelling**: BERTopic and LDA (Gensim)
