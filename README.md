@@ -93,18 +93,6 @@ This approach enables fitness brands like PureGym to:
 
 ---
 
-## File Structure
-
-puregym-nlp-topic-modelling/
-│
-├── README.md                            # Project overview 
-├── requirements.txt                     # Libraries used
-├── topic_modelling_bertopic.ipynb       # Main Jupyter notebook with main workflow + final outputs
-├── topic_modelling_lda_gensim.ipynb     # Alternate method for comparison
-└── stakeholder_report.pdf                
-
----
-
 ## Supporting Material
 
 For a non-technical summary of the business application and findings, see the [Stakeholder Report (PDF)](./stakeholder_report.pdf).
